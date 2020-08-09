@@ -13,7 +13,7 @@ type FeedbackState = { [id: number]: { message?: string, type?: string }}
 const Form: React.FC<{ api: string }> = ({ api }) => {
     const [data, changeData] = useState({
         name: "",
-        email: "",
+        email: "k.pradyumn.n@gmail.com",
         message: "",
     })
 
